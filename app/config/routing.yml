@@ -1,3 +1,7 @@
+just_chevalier:
+    resource: "@JustBundle/Controller/ChevalierController.php"
+    type:     annotation
+
 just:
     resource: "@JustBundle/Resources/config/routing.yml"
     prefix:   /
