@@ -1,0 +1,3 @@
+just_homepage:
+    path:     /
+    defaults: { _controller: JustBundle:Default:index }
