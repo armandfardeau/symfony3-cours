@@ -77,3 +77,8 @@ fa6135,127.0.0.1,GET,http://localhost:8000/default/,1485432014,412b48,200
 e1bc15,127.0.0.1,GET,http://localhost:8000/chevalier/,1485436330,,200
 2d2fd7,127.0.0.1,GET,http://localhost:8000/chevalier/,1485436332,,200
 30ee62,127.0.0.1,GET,http://localhost:8000/chevalier/new,1485436335,,200
+22d6f4,127.0.0.1,GET,http://localhost:8000/,1485437216,,200
+adb258,127.0.0.1,GET,http://localhost:8000/chevalier/,1485437217,,200
+a336f3,127.0.0.1,GET,http://localhost:8000/,1485437218,,200
+9d87b6,127.0.0.1,GET,http://localhost:8000/,1485437336,,200
+567dcd,127.0.0.1,GET,http://localhost:8000/,1485437427,,200
