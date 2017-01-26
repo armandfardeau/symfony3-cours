@@ -74,3 +74,6 @@ c064c0,127.0.0.1,GET,http://localhost:8000/deltfau,1485431998,,404
 b6d715,127.0.0.1,GET,http://localhost:8000/default,1485432005,,404
 fa6135,127.0.0.1,GET,http://localhost:8000/default/,1485432014,412b48,200
 412b48,127.0.0.1,GET,http://localhost:8000/default/,1485432014,,404
+e1bc15,127.0.0.1,GET,http://localhost:8000/chevalier/,1485436330,,200
+2d2fd7,127.0.0.1,GET,http://localhost:8000/chevalier/,1485436332,,200
+30ee62,127.0.0.1,GET,http://localhost:8000/chevalier/new,1485436335,,200
