@@ -1,3 +1,8 @@
+bunker:
+    resource: "@BunkerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 just_chevalier:
     resource: "@JustBundle/Controller/ChevalierController.php"
     type:     annotation

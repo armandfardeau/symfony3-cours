@@ -21,61 +21,64 @@ class __TwigTemplate_47a274ddd1794e4d3ee7594d64a081ce4fbc9e3ae1e7280c18a9fd690a4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e47ebe8f3e5ec3930fa4515512363396ac1f66e4e8d74271e4cd181764acc9b4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e47ebe8f3e5ec3930fa4515512363396ac1f66e4e8d74271e4cd181764acc9b4->enter($__internal_e47ebe8f3e5ec3930fa4515512363396ac1f66e4e8d74271e4cd181764acc9b4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "chevalier/new.html.twig"));
+        $__internal_c8421b811133a95a83ed120d9c3125ceed402f1a24bcb62690d135720bf03775 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c8421b811133a95a83ed120d9c3125ceed402f1a24bcb62690d135720bf03775->enter($__internal_c8421b811133a95a83ed120d9c3125ceed402f1a24bcb62690d135720bf03775_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "chevalier/new.html.twig"));
 
-        $__internal_36f1f3d7536bd32a88a248acb492266054e5f3d714f993c0697e8caed7599080 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_36f1f3d7536bd32a88a248acb492266054e5f3d714f993c0697e8caed7599080->enter($__internal_36f1f3d7536bd32a88a248acb492266054e5f3d714f993c0697e8caed7599080_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "chevalier/new.html.twig"));
+        $__internal_6d33f4de9133798b8885f458ab4cb67d9ff9ffd3228651c78342ff5b58388260 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6d33f4de9133798b8885f458ab4cb67d9ff9ffd3228651c78342ff5b58388260->enter($__internal_6d33f4de9133798b8885f458ab4cb67d9ff9ffd3228651c78342ff5b58388260_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "chevalier/new.html.twig"));
 
+        // line 3
+        $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->setTheme(($context["form"] ?? $this->getContext($context, "form")), array(0 => "bootstrap_3_horizontal_layout.html.twig"));
+        // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e47ebe8f3e5ec3930fa4515512363396ac1f66e4e8d74271e4cd181764acc9b4->leave($__internal_e47ebe8f3e5ec3930fa4515512363396ac1f66e4e8d74271e4cd181764acc9b4_prof);
+        $__internal_c8421b811133a95a83ed120d9c3125ceed402f1a24bcb62690d135720bf03775->leave($__internal_c8421b811133a95a83ed120d9c3125ceed402f1a24bcb62690d135720bf03775_prof);
 
         
-        $__internal_36f1f3d7536bd32a88a248acb492266054e5f3d714f993c0697e8caed7599080->leave($__internal_36f1f3d7536bd32a88a248acb492266054e5f3d714f993c0697e8caed7599080_prof);
+        $__internal_6d33f4de9133798b8885f458ab4cb67d9ff9ffd3228651c78342ff5b58388260->leave($__internal_6d33f4de9133798b8885f458ab4cb67d9ff9ffd3228651c78342ff5b58388260_prof);
 
     }
 
-    // line 3
+    // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_4e064ea61b587e350ef6a650c317f001bc132a8218077cb91de2a89fbfde797d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4e064ea61b587e350ef6a650c317f001bc132a8218077cb91de2a89fbfde797d->enter($__internal_4e064ea61b587e350ef6a650c317f001bc132a8218077cb91de2a89fbfde797d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_2aa31989eee2a0cfb641264ff0a37ea8de1919e5edecf5b04759967d54d5999f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2aa31989eee2a0cfb641264ff0a37ea8de1919e5edecf5b04759967d54d5999f->enter($__internal_2aa31989eee2a0cfb641264ff0a37ea8de1919e5edecf5b04759967d54d5999f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_1a10d9539f4d59bff185c696bdd6f2510c7f4b7d7cfc22814d1652a6ab18091e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1a10d9539f4d59bff185c696bdd6f2510c7f4b7d7cfc22814d1652a6ab18091e->enter($__internal_1a10d9539f4d59bff185c696bdd6f2510c7f4b7d7cfc22814d1652a6ab18091e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_d2edc3107c8b7df00471826ec28d40a765f2fa6683672821f16ecc9d95e6debd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d2edc3107c8b7df00471826ec28d40a765f2fa6683672821f16ecc9d95e6debd->enter($__internal_d2edc3107c8b7df00471826ec28d40a765f2fa6683672821f16ecc9d95e6debd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 4
+        // line 6
         echo "    <h1>Chevalier creation</h1>
 
     ";
-        // line 6
+        // line 8
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_start');
         echo "
         ";
-        // line 7
+        // line 9
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock(($context["form"] ?? $this->getContext($context, "form")), 'widget');
         echo "
         <input type=\"submit\" value=\"Create\" />
     ";
-        // line 9
+        // line 11
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock(($context["form"] ?? $this->getContext($context, "form")), 'form_end');
         echo "
 
     <ul>
         <li>
             <a href=\"";
-        // line 13
+        // line 15
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("chevalier_index");
         echo "\">Back to the list</a>
         </li>
     </ul>
 ";
         
-        $__internal_1a10d9539f4d59bff185c696bdd6f2510c7f4b7d7cfc22814d1652a6ab18091e->leave($__internal_1a10d9539f4d59bff185c696bdd6f2510c7f4b7d7cfc22814d1652a6ab18091e_prof);
+        $__internal_d2edc3107c8b7df00471826ec28d40a765f2fa6683672821f16ecc9d95e6debd->leave($__internal_d2edc3107c8b7df00471826ec28d40a765f2fa6683672821f16ecc9d95e6debd_prof);
 
         
-        $__internal_4e064ea61b587e350ef6a650c317f001bc132a8218077cb91de2a89fbfde797d->leave($__internal_4e064ea61b587e350ef6a650c317f001bc132a8218077cb91de2a89fbfde797d_prof);
+        $__internal_2aa31989eee2a0cfb641264ff0a37ea8de1919e5edecf5b04759967d54d5999f->leave($__internal_2aa31989eee2a0cfb641264ff0a37ea8de1919e5edecf5b04759967d54d5999f_prof);
 
     }
 
@@ -91,7 +94,7 @@ class __TwigTemplate_47a274ddd1794e4d3ee7594d64a081ce4fbc9e3ae1e7280c18a9fd690a4
 
     public function getDebugInfo()
     {
-        return array (  69 => 13,  62 => 9,  57 => 7,  53 => 6,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  72 => 15,  65 => 11,  60 => 9,  56 => 8,  52 => 6,  43 => 5,  33 => 1,  31 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -105,6 +108,8 @@ class __TwigTemplate_47a274ddd1794e4d3ee7594d64a081ce4fbc9e3ae1e7280c18a9fd690a4
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'base.html.twig' %}
+
+{% form_theme form 'bootstrap_3_horizontal_layout.html.twig' %}
 
 {% block body %}
     <h1>Chevalier creation</h1>

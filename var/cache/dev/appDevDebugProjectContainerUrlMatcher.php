@@ -105,6 +105,15 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // bunker_default_index
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'bunker_default_index');
+            }
+
+            return array (  '_controller' => 'BunkerBundle\\Controller\\DefaultController::indexAction',  '_route' => 'bunker_default_index',);
+        }
+
         if (0 === strpos($pathinfo, '/chevalier')) {
             // chevalier_index
             if (rtrim($pathinfo, '/') === '/chevalier') {

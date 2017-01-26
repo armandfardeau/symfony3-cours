@@ -17,6 +17,7 @@
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
       <parameter key="AppBundle">AppBundle\AppBundle</parameter>
       <parameter key="JustBundle">JustBundle\JustBundle</parameter>
+      <parameter key="BunkerBundle">BunkerBundle\BunkerBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -67,6 +68,11 @@
         <parameter key="parent">null</parameter>
         <parameter key="path">/Applications/MAMP/htdocs/ProjetSymfony/src/JustBundle</parameter>
         <parameter key="namespace">JustBundle</parameter>
+      </parameter>
+      <parameter key="BunkerBundle" type="collection">
+        <parameter key="parent">null</parameter>
+        <parameter key="path">/Applications/MAMP/htdocs/ProjetSymfony/src/BunkerBundle</parameter>
+        <parameter key="namespace">BunkerBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
@@ -158,6 +164,8 @@
     <parameter key="twig.exception_listener.controller">twig.controller.exception:showAction</parameter>
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
+      <parameter>bootstrap_3_layout.html.twig</parameter>
+      <parameter>bootstrap_3_horizontal_layout.html.twig</parameter>
     </parameter>
     <parameter key="monolog.use_microseconds">true</parameter>
     <parameter key="monolog.swift_mailer.handlers" type="collection"/>
@@ -461,7 +469,7 @@
                 <tag name="cache.pool" clearer="cache.default_clearer"/>
                 <argument>R0vCJZoRNC</argument>
                 <argument>0</argument>
-                <argument>L262NsC49N4MivOvLKD-tp</argument>
+                <argument>ChrxSGMgjGT1xsMZnsdkR6</argument>
                 <argument>/Applications/MAMP/htdocs/ProjetSymfony/var/cache/dev/pools</argument>
                 <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                 <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -629,7 +637,7 @@
           <tag name="monolog.logger" channel="cache"/>
           <argument>im+uXitIkY</argument>
           <argument>null</argument>
-          <argument>L262NsC49N4MivOvLKD-tp</argument>
+          <argument>ChrxSGMgjGT1xsMZnsdkR6</argument>
           <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
           <factory class="Symfony\Component\PropertyAccess\PropertyAccessor" method="createCache"/>
         </service>
@@ -650,7 +658,7 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>EU6ftNNU9d</argument>
       <argument>0</argument>
-      <argument>L262NsC49N4MivOvLKD-tp</argument>
+      <argument>ChrxSGMgjGT1xsMZnsdkR6</argument>
       <argument>/Applications/MAMP/htdocs/ProjetSymfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -660,7 +668,7 @@
       <tag name="cache.pool" clearer="cache.default_clearer"/>
       <argument>EfoY0vxHNz</argument>
       <argument>0</argument>
-      <argument>L262NsC49N4MivOvLKD-tp</argument>
+      <argument>ChrxSGMgjGT1xsMZnsdkR6</argument>
       <argument>/Applications/MAMP/htdocs/ProjetSymfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1653,7 +1661,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5883d5e2dd60b0.00917256</argument>
+            <argument>5889e161ee1895.11419744</argument>
           </service>
         </argument>
       </argument>
@@ -1801,7 +1809,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5883d5e2dd60b0.00917256</argument>
+            <argument>5889e161ee1895.11419744</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -1859,10 +1867,12 @@
       <argument type="collection">
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
-        <argument key="exception_controller">twig.controller.exception:showAction</argument>
         <argument key="form_themes" type="collection">
           <argument>form_div_layout.html.twig</argument>
+          <argument>bootstrap_3_layout.html.twig</argument>
+          <argument>bootstrap_3_horizontal_layout.html.twig</argument>
         </argument>
+        <argument key="exception_controller">twig.controller.exception:showAction</argument>
         <argument key="autoescape">name</argument>
         <argument key="cache">/Applications/MAMP/htdocs/ProjetSymfony/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
@@ -2112,6 +2122,8 @@
         <service class="Symfony\Bridge\Twig\Form\TwigRendererEngine" public="false">
           <argument type="collection">
             <argument>form_div_layout.html.twig</argument>
+            <argument>bootstrap_3_layout.html.twig</argument>
+            <argument>bootstrap_3_horizontal_layout.html.twig</argument>
           </argument>
           <argument type="service" id="twig"/>
         </service>
@@ -2794,6 +2806,10 @@
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/ProjetSymfony/src/JustBundle/Resources/views</argument>
         <argument>Just</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/MAMP/htdocs/ProjetSymfony/src/BunkerBundle/Resources/views</argument>
+        <argument>Bunker</argument>
       </call>
       <call method="addPath">
         <argument>/Applications/MAMP/htdocs/ProjetSymfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
