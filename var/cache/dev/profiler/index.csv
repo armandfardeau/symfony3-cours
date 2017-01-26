@@ -33,3 +33,8 @@ ddecea,127.0.0.1,GET,http://localhost:8000/chevalier/,1485035210,,200
 4b7e2f,127.0.0.1,GET,http://localhost:8000/chevalier/new,1485035228,,200
 e63d66,127.0.0.1,POST,http://localhost:8000/chevalier/new,1485035244,,302
 f24fc3,127.0.0.1,GET,http://localhost:8000/chevalier/1,1485035244,,200
+784a2f,127.0.0.1,GET,http://localhost:8000/chevalier,1485305912,,301
+d3b52d,127.0.0.1,GET,http://localhost:8000/chevalier/,1485305912,,200
+cac3d6,127.0.0.1,GET,http://localhost:8000/,1485306076,,200
+e99bfd,127.0.0.1,GET,http://localhost:8000/,1485306076,,200
+c5f888,127.0.0.1,GET,http://localhost:8000/,1485306112,,200
