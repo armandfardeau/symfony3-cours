@@ -8,6 +8,9 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('JustBundle:Default:index.html.twig');
+        $studentRepo = $this->getDoctrine()->getRepository('JustBundle:Student');
+        return $this->render('student/unemethode.html.twig', [
+            'students' => $studentRepo->uneMethode(),
+        ]);
     }
 }
