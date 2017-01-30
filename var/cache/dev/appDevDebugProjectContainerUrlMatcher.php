@@ -106,64 +106,10 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         if (0 === strpos($pathinfo, '/student')) {
-            // student_index
-            if (rtrim($pathinfo, '/') === '/student') {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_student_index;
-                }
-
-                if (substr($pathinfo, -1) !== '/') {
-                    return $this->redirect($pathinfo.'/', 'student_index');
-                }
-
-                return array (  '_controller' => 'JustBundle\\Controller\\StudentController::indexAction',  '_route' => 'student_index',);
+            // just_student_index
+            if ($pathinfo === '/student') {
+                return array (  '_controller' => 'JustBundle\\Controller\\StudentController::indexAction',  '_route' => 'just_student_index',);
             }
-            not_student_index:
-
-            // student_new
-            if ($pathinfo === '/student/new') {
-                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                    goto not_student_new;
-                }
-
-                return array (  '_controller' => 'JustBundle\\Controller\\StudentController::newAction',  '_route' => 'student_new',);
-            }
-            not_student_new:
-
-            // student_show
-            if (preg_match('#^/student/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_student_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'student_show')), array (  '_controller' => 'JustBundle\\Controller\\StudentController::showAction',));
-            }
-            not_student_show:
-
-            // student_edit
-            if (preg_match('#^/student/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                    goto not_student_edit;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'student_edit')), array (  '_controller' => 'JustBundle\\Controller\\StudentController::editAction',));
-            }
-            not_student_edit:
-
-            // student_delete
-            if (preg_match('#^/student/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
-                    goto not_student_delete;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'student_delete')), array (  '_controller' => 'JustBundle\\Controller\\StudentController::deleteAction',));
-            }
-            not_student_delete:
 
             if (0 === strpos($pathinfo, '/studenttype')) {
                 // studenttype_index
