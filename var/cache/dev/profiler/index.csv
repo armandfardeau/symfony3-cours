@@ -1,9 +1,4 @@
-da9491,127.0.0.1,GET,http://localhost:8000/index,1486036336,fc6989,200
-fc6989,127.0.0.1,GET,http://localhost:8000/index,1486036336,,500
-114b2e,127.0.0.1,GET,http://localhost:8000/index,1486036339,a5bf6e,200
-a5bf6e,127.0.0.1,GET,http://localhost:8000/index,1486036339,,500
-1a9351,127.0.0.1,GET,http://localhost:8000/index,1486036350,3cb605,200
-3cb605,127.0.0.1,GET,http://localhost:8000/index,1486036350,,500
-1f28ad,127.0.0.1,GET,http://localhost:8000/index,1486036379,,200
-39ec6f,127.0.0.1,GET,http://localhost:8000/index/new,1486036406,731a89,200
-731a89,127.0.0.1,GET,http://localhost:8000/index/new,1486036406,,404
+3f2af7,127.0.0.1,GET,http://localhost:8000/student/,1486052471,f053a1,200
+f053a1,127.0.0.1,GET,http://localhost:8000/student/,1486052471,,500
+0bb142,127.0.0.1,GET,http://localhost:8000/student/,1486052523,60c8e7,200
+60c8e7,127.0.0.1,GET,http://localhost:8000/student/,1486052523,,500

@@ -5,12 +5,19 @@ namespace JustBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
+/**
+ * Student Controller
+ *
+ * @Route("student")
+ *
+ */
+
+
 class StudentController extends Controller
 {
     /**
-     * Student Controller
+     * @Route("/")
      *
-     * @Route("/index")
      */
     public function indexAction()
     {
@@ -25,7 +32,7 @@ class StudentController extends Controller
             array_push($ages,$age);
         }
 
-        return $this->render('student/index.html.twig', array(
+        return $this->render('justBundle:student/index.html.twig', array(
             'students' => $students,
             'ages' => $ages,
         ));

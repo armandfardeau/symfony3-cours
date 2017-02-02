@@ -105,70 +105,77 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // just_student_index
-        if ($pathinfo === '/index') {
-            return array (  '_controller' => 'JustBundle\\Controller\\StudentController::indexAction',  '_route' => 'just_student_index',);
-        }
-
-        if (0 === strpos($pathinfo, '/studenttype')) {
-            // studenttype_index
-            if (rtrim($pathinfo, '/') === '/studenttype') {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_studenttype_index;
-                }
-
+        if (0 === strpos($pathinfo, '/student')) {
+            // just_student_index
+            if (rtrim($pathinfo, '/') === '/student') {
                 if (substr($pathinfo, -1) !== '/') {
-                    return $this->redirect($pathinfo.'/', 'studenttype_index');
+                    return $this->redirect($pathinfo.'/', 'just_student_index');
                 }
 
-                return array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::indexAction',  '_route' => 'studenttype_index',);
+                return array (  '_controller' => 'JustBundle\\Controller\\StudentController::indexAction',  '_route' => 'just_student_index',);
             }
-            not_studenttype_index:
 
-            // studenttype_new
-            if ($pathinfo === '/studenttype/new') {
-                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                    goto not_studenttype_new;
+            if (0 === strpos($pathinfo, '/studenttype')) {
+                // studenttype_index
+                if (rtrim($pathinfo, '/') === '/studenttype') {
+                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                        $allow = array_merge($allow, array('GET', 'HEAD'));
+                        goto not_studenttype_index;
+                    }
+
+                    if (substr($pathinfo, -1) !== '/') {
+                        return $this->redirect($pathinfo.'/', 'studenttype_index');
+                    }
+
+                    return array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::indexAction',  '_route' => 'studenttype_index',);
                 }
+                not_studenttype_index:
 
-                return array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::newAction',  '_route' => 'studenttype_new',);
-            }
-            not_studenttype_new:
+                // studenttype_new
+                if ($pathinfo === '/studenttype/new') {
+                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                        goto not_studenttype_new;
+                    }
 
-            // studenttype_show
-            if (preg_match('#^/studenttype/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_studenttype_show;
+                    return array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::newAction',  '_route' => 'studenttype_new',);
                 }
+                not_studenttype_new:
 
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_show')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::showAction',));
-            }
-            not_studenttype_show:
+                // studenttype_show
+                if (preg_match('#^/studenttype/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                        $allow = array_merge($allow, array('GET', 'HEAD'));
+                        goto not_studenttype_show;
+                    }
 
-            // studenttype_edit
-            if (preg_match('#^/studenttype/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
-                    goto not_studenttype_edit;
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_show')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::showAction',));
                 }
+                not_studenttype_show:
 
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_edit')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::editAction',));
-            }
-            not_studenttype_edit:
+                // studenttype_edit
+                if (preg_match('#^/studenttype/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                    if (!in_array($this->context->getMethod(), array('GET', 'POST', 'HEAD'))) {
+                        $allow = array_merge($allow, array('GET', 'POST', 'HEAD'));
+                        goto not_studenttype_edit;
+                    }
 
-            // studenttype_delete
-            if (preg_match('#^/studenttype/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
-                    goto not_studenttype_delete;
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_edit')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::editAction',));
                 }
+                not_studenttype_edit:
 
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_delete')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::deleteAction',));
+                // studenttype_delete
+                if (preg_match('#^/studenttype/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    if ($this->context->getMethod() != 'DELETE') {
+                        $allow[] = 'DELETE';
+                        goto not_studenttype_delete;
+                    }
+
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'studenttype_delete')), array (  '_controller' => 'JustBundle\\Controller\\StudentTypeController::deleteAction',));
+                }
+                not_studenttype_delete:
+
             }
-            not_studenttype_delete:
 
         }
 
@@ -250,6 +257,28 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             return array (  '_controller' => 'JustBundle\\Controller\\DefaultController::indexAction',  '_route' => 'just_homepage',);
+        }
+
+        if (0 === strpos($pathinfo, '/creaturefantastique')) {
+            // app_creaturefantastique_index
+            if (rtrim($pathinfo, '/') === '/creaturefantastique') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'app_creaturefantastique_index');
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\CreatureFantastiqueController::indexAction',  '_route' => 'app_creaturefantastique_index',);
+            }
+
+            // app_creaturefantastique_show
+            if (0 === strpos($pathinfo, '/creaturefantastique/show') && preg_match('#^/creaturefantastique/show/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'app_creaturefantastique_show')), array (  '_controller' => 'AppBundle\\Controller\\CreatureFantastiqueController::showAction',));
+            }
+
+            // app_creaturefantastique_new
+            if ($pathinfo === '/creaturefantastique/new') {
+                return array (  '_controller' => 'AppBundle\\Controller\\CreatureFantastiqueController::newAction',  '_route' => 'app_creaturefantastique_new',);
+            }
+
         }
 
         // homepage
