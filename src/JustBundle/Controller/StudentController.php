@@ -10,16 +10,24 @@ class StudentController extends Controller
     /**
      * Student Controller
      *
-     * @Route("student")
+     * @Route("/index")
      */
     public function indexAction()
     {
+        $service = $this->get('just.services.time_is_on_my_side');
         $em = $this->getDoctrine()->getEntityManager();
-        $data = $em->getRepository('JustBundle:Student')->displayAge();
-        dump($data);
+        $students = $em->getRepository('JustBundle:Student')->displayAge();
+
+        $ages = [];
+
+        foreach ($students as $student) {
+            $age = $service->getAge($student->getDateOfBirth());
+            array_push($ages,$age);
+        }
 
         return $this->render('student/index.html.twig', array(
-            // ...
+            'students' => $students,
+            'ages' => $ages,
         ));
     }
 
