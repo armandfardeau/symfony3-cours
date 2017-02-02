@@ -1,3 +1,12 @@
 {% extends "base.html.twig" %}
 
-{% block title %} AppBundle:CreatureFantastique:index {% endblock %}
+{% block title %} AppBundle:CreatureFantastique:NYU {% endblock %}
+
+{% block body %}
+<h1>Welcome to the creatureFantastique:New page</h1>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    <input type="submit" value="LOL">
+    {{ form_end(form) }}
+{% endblock %}
+

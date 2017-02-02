@@ -3,14 +3,13 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\CreatureFantastique;
-use Doctrine\ORM\Cache\Persister\Entity\ReadOnlyCachedEntityPersister;
+use AppBundle\Form\CreatureFantastiqueType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
- * Class CreatureFantastiqueController
- * @package AppBundle\Controller
+ *
  * @Route("/creaturefantastique")
  */
 
@@ -27,7 +26,7 @@ class CreatureFantastiqueController extends Controller
             ->getRepository("AppBundle:CreatureFantastique")
             ->findAll();
 
-        return $this->render('AppBundle:CreatureFantastiques/index.html.twig', array(
+        return $this->render('CreatureFantastique/index.html.twig', array(
             'creatureFantastiques' => $creatureFantastiques
         ));
     }
@@ -39,35 +38,42 @@ class CreatureFantastiqueController extends Controller
      * @internal param CreatureFantastique $creatureFantastique
      */
 
-    public function showAction()
+    public function showAction($id)
     {
-        $creatureFantastiques = $this
+        $creatureFantastique = $this
             ->getDoctrine()
             ->getManager()
             ->getRepository("AppBundle:CreatureFantastique")
-            ->findAll();
+            ->find($id);
+        if(!$creatureFantastique) {
+            return $this->redirectToRoute('app_creaturefantastique_index');
+        }
 
-        return $this->render('AppBundle:CreatureFantastiques/show.html.twig', array(
-            'creatureFantastiques' => $creatureFantastiques
+        return $this->render('CreatureFantastique/show.html.twig', array(
+            'creatureFantastique' => $creatureFantastique
         ));
     }
 
     /**
      * @param Request $request
      * @Route("/new")
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @return \Symfony\Component\HttpFoundation\Responsec
      */
 
     public function newAction(Request $request)
     {
         $creatureFantastique = new CreatureFantastique();
         $form = $this-> createForm(
-            "Appbundle/Form/CreatureFantastiqueType",
+            "Appbundle\Form\CreatureFantastiqueType",
             $creatureFantastique
             );
         $form->handleRequest($request);
         if($form->isSubmitted() && $form->isValid()){
-            dump($form);die();
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($creatureFantastique);
+            $em->flush();
+
+            return $this->redirectToRoute("app_creaturefantastique_show", ['id' =>$creatureFantastique->getId()]) ;
         }
         $response = $this->render("CreatureFantastique/new.html.twig",
             [

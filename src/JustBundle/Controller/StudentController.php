@@ -32,7 +32,7 @@ class StudentController extends Controller
             array_push($ages,$age);
         }
 
-        return $this->render('justBundle:student/index.html.twig', array(
+        return $this->render('student/index.html.twig', array(
             'students' => $students,
             'ages' => $ages,
         ));

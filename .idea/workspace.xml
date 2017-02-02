@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e9552b-73ad-4a88-b86e-cd2fd656f51d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/4/PFV1pipelFhJqRu7QDgr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/6/+7ghRwB7N8woEyn6PSWG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/Q/H/BN52RwFwgh+ph5vOFE1j" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastique.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CreatureFantastiqueRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/CreatureFantastique/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/CreatureFantastiqueControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/B/kwwGuu7P4m8Of9YV22Ye" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/G/sFTMPMdkFPCgGDdB5SeW" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/T/vZ3v6xZ78UQVNByjP6hl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/7/F/2GFjiErRvdZAw-tgY5iF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/D/V/ruaNpw8qrIoIsyn7dRC4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/I/T/1guCc-MMbCxu1kVMr+dl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/U/Q/E1Qh0eGX0+TMeBYCo7A8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/05/b6/3cb605" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/2e/4b/114b2e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/51/93/1a9351" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/6e/bf/a5bf6e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/6f/ec/39ec6f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/89/1a/731a89" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/89/69/fc6989" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/91/94/da9491" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/ad/28/1f28ad" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bd/bdb701f7a562eecf6e5ea178039543ae8a52e28d6a0a0fdb66d5b5a992bc9dad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_4fe6c58cb8bee91d466737b57fb4e119" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_c1c461e4fd739969f2b43381998cbf7e" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastiqueType.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/42/b1/0bb142" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/a1/53/f053a1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/e7/c8/60c8e7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/f7/2a/3f2af7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_1cf59e9abdbc7e43334c4fb5dafdb0ea" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/4/PFV1pipelFhJqRu7QDgr" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/4/PFV1pipelFhJqRu7QDgr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/C/baSDea3Elf2xOeeHQ6qI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/C/baSDea3Elf2xOeeHQ6qI" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/G/31ZfVB9xeQG6IrA8wNLc" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/2/G/31ZfVB9xeQG6IrA8wNLc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/4/D/RXlxKpd+jTmXalF7QVBb" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/4/D/RXlxKpd+jTmXalF7QVBb" />
@@ -43,21 +20,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/I/I/Hjxq4qq8aufFdVw28uGy" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/I/I/Hjxq4qq8aufFdVw28uGy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/J/I/v8zgETl2Q+gXbwPfRV+E" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/J/I/v8zgETl2Q+gXbwPfRV+E" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/J/W/Pz4H0TeJRNu2StvNhib7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/J/W/Pz4H0TeJRNu2StvNhib7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/6/+7ghRwB7N8woEyn6PSWG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/6/+7ghRwB7N8woEyn6PSWG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/N/X/bJOA0r2-DdZP-GmPbKsh" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/N/X/bJOA0r2-DdZP-GmPbKsh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/O/C/kk2eNsXNvqLNJlgjx8Lp" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/O/C/kk2eNsXNvqLNJlgjx8Lp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/Q/H/BN52RwFwgh+ph5vOFE1j" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/Q/H/BN52RwFwgh+ph5vOFE1j" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/S/H/MKjWyWo2eEvVXBCBcLdD" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/S/H/MKjWyWo2eEvVXBCBcLdD" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/T/Y/yEd+rzrsypT8H-gqcUbV" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/T/Y/yEd+rzrsypT8H-gqcUbV" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/E/dxvfXACAvybJxHJbbbiJ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/E/dxvfXACAvybJxHJbbbiJ" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/S/hnPerR0ylcbbahWTV+1h" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/S/hnPerR0ylcbbahWTV+1h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php" afterPath="$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/+/5/KtszP7xMmjGcXxpXfSie" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/+/5/KtszP7xMmjGcXxpXfSie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/+/Y/6SRlieGA-h4kmJAkJZne" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/+/Y/6SRlieGA-h4kmJAkJZne" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/-/2/lzWii9zBedvr3XgrMZ-s" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/-/2/lzWii9zBedvr3XgrMZ-s" />
@@ -169,6 +148,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/F/V/kyeCgZgSsLKupaA711PI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/F/V/kyeCgZgSsLKupaA711PI" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/5/NPQTsvbmg7CRbALvJNaT" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/5/NPQTsvbmg7CRbALvJNaT" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/M/1ez+fzCi-nbBAtghBFVa" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/M/1ez+fzCi-nbBAtghBFVa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/S/1uNApwOF78H-H7aihGVt" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/S/1uNApwOF78H-H7aihGVt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/S/CyhpcH6MoQguaUFLT278" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/S/CyhpcH6MoQguaUFLT278" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/T/Ncqozz+DYaUNGl-81EQz" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/T/Ncqozz+DYaUNGl-81EQz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/U/NV2g-rUktVWQMw9RccK6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/G/U/NV2g-rUktVWQMw9RccK6" />
@@ -209,6 +189,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/5/WG-7Xs2wyseGW42meEkB" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/5/WG-7Xs2wyseGW42meEkB" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/7/RLdc6U4jaBeJrBNEEw34" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/7/RLdc6U4jaBeJrBNEEw34" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/B/81yIEONdIZ0Eb+wqwwqr" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/B/81yIEONdIZ0Eb+wqwwqr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/B/kwwGuu7P4m8Of9YV22Ye" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/B/kwwGuu7P4m8Of9YV22Ye" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/F/kw-VLy-wZR4Y4GKcSM8a" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/F/kw-VLy-wZR4Y4GKcSM8a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/G/AXn6FkoNFgjr4tFLkiUg" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/G/AXn6FkoNFgjr4tFLkiUg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/J/7vcKrlD73JEJWgUnwFKP" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/L/J/7vcKrlD73JEJWgUnwFKP" />
@@ -220,6 +201,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/C/0luLFZmDzmwqzXdkJH0e" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/C/0luLFZmDzmwqzXdkJH0e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/F/o0ypjG6G9xe9dFimGO02" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/F/o0ypjG6G9xe9dFimGO02" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/G/dFpDTbup0beqhJM3DMOH" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/G/dFpDTbup0beqhJM3DMOH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/G/sFTMPMdkFPCgGDdB5SeW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/G/sFTMPMdkFPCgGDdB5SeW" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/M/LxmN0zdnFMTx3Z4B0i3Z" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/M/LxmN0zdnFMTx3Z4B0i3Z" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/O/500AKJRKuRYzTTPKOzIC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/O/500AKJRKuRYzTTPKOzIC" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/R/7-EQlJA3uJxNVV9K5CKO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/M/R/7-EQlJA3uJxNVV9K5CKO" />
@@ -317,6 +299,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/0/07H2RXGiIdOCEEFv28Y+" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/0/07H2RXGiIdOCEEFv28Y+" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/H/bWW7vVaXlGuXJosJMBYt" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/H/bWW7vVaXlGuXJosJMBYt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/N/KXrl6eGAnddNndwOIyRZ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/N/KXrl6eGAnddNndwOIyRZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/T/vZ3v6xZ78UQVNByjP6hl" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/W/T/vZ3v6xZ78UQVNByjP6hl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/2/dpLylVMNQXakcxP8Jg2m" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/2/dpLylVMNQXakcxP8Jg2m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/6/xpNQgVQDkhvMVgpYeYQ-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/6/xpNQgVQDkhvMVgpYeYQ-" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/F/cEsIu34Rl94xTM38v6Xd" afterPath="$PROJECT_DIR$/var/cache/dev/pools/EfoY0vxHNz/X/F/cEsIu34Rl94xTM38v6Xd" />
@@ -354,7 +337,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/R0vCJZoRNC/V/M/I4YHK9JMxDcK9X3ajugA" afterPath="$PROJECT_DIR$/var/cache/dev/pools/R0vCJZoRNC/V/M/I4YHK9JMxDcK9X3ajugA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/R0vCJZoRNC/X/K/rEJ4r9WOezFcAoiYdRLC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/R0vCJZoRNC/X/K/rEJ4r9WOezFcAoiYdRLC" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/templates.php" afterPath="$PROJECT_DIR$/var/cache/dev/templates.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/00/005f7b98b14e3488febdb9e2ed2e178977e8f085b2441b1f6918301228fbebbc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/00/005f7b98b14e3488febdb9e2ed2e178977e8f085b2441b1f6918301228fbebbc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/03/035eb0f3f54548ca011cc909cb2f78d193cd1f248412ccfc9553b4234083816d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/03/035eb0f3f54548ca011cc909cb2f78d193cd1f248412ccfc9553b4234083816d.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/06/066cee2816b9f05fa036669c523fc64e0c38d67e676a991e7ef6c8a193017371.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/06/066cee2816b9f05fa036669c523fc64e0c38d67e676a991e7ef6c8a193017371.php" />
@@ -468,6 +450,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a8/a84df4708db26a3e0b1a41c75fb31b45edbd9dfd4a53fcd82cd7bb27ef9f8271.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/a8/a84df4708db26a3e0b1a41c75fb31b45edbd9dfd4a53fcd82cd7bb27ef9f8271.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ab/abefdd682c3aed337b7d043c6655bd78745230a450f7861253c13868f7ba01a8.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ab/abefdd682c3aed337b7d043c6655bd78745230a450f7861253c13868f7ba01a8.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ad/ad2690413a83d981498e4dc8e75db83513a43613eedfdea7dd8b0b935641d1c5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ad/ad2690413a83d981498e4dc8e75db83513a43613eedfdea7dd8b0b935641d1c5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ae/ae5d2218212fa9b966ac905ba98df7cd3f5c09376e48f6276339fc855ef6bcf9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ae/ae5d2218212fa9b966ac905ba98df7cd3f5c09376e48f6276339fc855ef6bcf9.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/af/afc0812463cae32123a7c3cc343cfcb324f0d3329f1010fe2f05889b9f8da492.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/af/afc0812463cae32123a7c3cc343cfcb324f0d3329f1010fe2f05889b9f8da492.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2030b87b8ac473d49cfb7d614824309c1f1eab14485108bcd50e6dd531a452c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b2/b2030b87b8ac473d49cfb7d614824309c1f1eab14485108bcd50e6dd531a452c.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3e3d4c45647d3ac0cfabd6b947af836e2dee91a6c72a11b6b9a381d1b6442ce.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3e3d4c45647d3ac0cfabd6b947af836e2dee91a6c72a11b6b9a381d1b6442ce.php" />
@@ -493,6 +476,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cc/cc6c4b42a3a9cde0f495e5c8b4659f4a19922dae41688a770e67ad99d56e099f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cc/cc6c4b42a3a9cde0f495e5c8b4659f4a19922dae41688a770e67ad99d56e099f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d0/d09abbacba65978369f7e590f0ffed46dfa5051491a1f4bc86895c2fa72592ad.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d0/d09abbacba65978369f7e590f0ffed46dfa5051491a1f4bc86895c2fa72592ad.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1b218d4306e2453b01bd385065430bfeb4f1723251a682abcc85c94ecc065ea.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1b218d4306e2453b01bd385065430bfeb4f1723251a682abcc85c94ecc065ea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d2/d2da46ce1ca9ff38b5b42621723f4aef498a0cc05215d1c6847297d5b48e9993.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d2/d2da46ce1ca9ff38b5b42621723f4aef498a0cc05215d1c6847297d5b48e9993.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d3/d31390650c2d209a16266bd61c2fa213b32f00d482bb7e529f65e313dba671ba.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d3/d31390650c2d209a16266bd61c2fa213b32f00d482bb7e529f65e313dba671ba.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d6/d63d8fd96f7a503de73ecae4bb08452e167e286e773839ab6d50a97a1d23ce10.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d6/d63d8fd96f7a503de73ecae4bb08452e167e286e773839ab6d50a97a1d23ce10.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d6/d6c4dbe0e4427e9a9553073f043364b566adf13c0c49f78b52c925db4c24680f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d6/d6c4dbe0e4427e9a9553073f043364b566adf13c0c49f78b52c925db4c24680f.php" />
@@ -528,41 +512,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatureFantastiqueController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreatureFantastiqueController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+            <state relative-caret-position="765">
+              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
               <folding>
                 <element signature="e#40#81#0#PHP" expanded="true" />
               </folding>
@@ -573,38 +527,40 @@
       <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChevalierController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/ChevalierController.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="103" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="103" />
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentTypeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentTypeController.php">
+      <file leaf-file-name="CreatureFantastique.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastique.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatureFantastiqueType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastiqueType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <folding>
+                <element signature="e#34#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatureFantastiqueRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/CreatureFantastiqueRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -614,7 +570,49 @@
         <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -645,11 +643,14 @@
         <option value="$PROJECT_DIR$/app/Resources/views/Student/index.html.twig" />
         <option value="$PROJECT_DIR$/src/JustBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/JustBundle/Services/TimeIsOnMySide.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastique.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastiqueType.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig" />
         <option value="$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig" />
       </list>
     </option>
   </component>
@@ -689,6 +690,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -707,10 +710,182 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JustBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CreatureFantastique" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetSymfony" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -813,20 +988,22 @@
       <workItem from="1485946049752" duration="28000" />
       <workItem from="1486001395246" duration="95000" />
       <workItem from="1486030428815" duration="3503000" />
-      <workItem from="1486048338171" duration="3447000" />
+      <workItem from="1486048338171" duration="3879000" />
+      <workItem from="1486067682930" duration="3838000" />
+      <workItem from="1486071882821" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34399000" />
+    <option name="totallyTimeSpent" value="38693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24765626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24765626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -878,9 +1055,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/views/base.html.twig" />
-    <entry file="file://$PROJECT_DIR$/web/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/src/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,13 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/student/unemethode.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/JustBundle/Form/StudentTypeType.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1000,9 +1167,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#98#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,9 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#75#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1224,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Services/TimeIsOnMySide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Student/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/studenttype/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Entity/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Entity/Chevalier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/CreatureFantastique/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentTypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/views/Student/index.html.twig" />
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/ChevalierController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="103" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastiqueType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/CreatureFantastiqueRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1075,159 +1379,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/CreatureFantastique.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Services/TimeIsOnMySide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Student/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/studenttype/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Entity/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Entity/Chevalier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/CreatureFantastique/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding>
-            <marker date="1486051293000" expanded="true" signature="32:100" ph="{% block title ...%}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/CreatureFantastique/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CreatureFantastiqueController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+        <state relative-caret-position="765">
+          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
           <folding>
             <element signature="e#40#81#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentTypeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/ChevalierController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="103" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Controller/StudentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JustBundle/Resources/views/Student/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

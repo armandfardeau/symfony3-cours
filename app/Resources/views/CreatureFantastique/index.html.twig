@@ -4,5 +4,10 @@
 
 {% block body %}
 <h1>Welcome to the CreatureFantastique:index page</h1>
-    {% for creaturefantastique in creaturefantastiques %}
+    {% for creatureFantastique in creatureFantastiques %}
+    <div>
+        <h2>{{ creatureFantastique.nom }}</h2>
+        <p>{{ creatureFantastique.superPower }}</p>
+    </div>
+    {% endfor %}
 {% endblock %}
