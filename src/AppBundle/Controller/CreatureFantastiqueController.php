@@ -57,14 +57,14 @@ class CreatureFantastiqueController extends Controller
     /**
      * @param Request $request
      * @Route("/new")
-     * @return \Symfony\Component\HttpFoundation\Responsec
+     * @return \Symfony\Component\HttpFoundation\Response
      */
 
     public function newAction(Request $request)
     {
         $creatureFantastique = new CreatureFantastique();
         $form = $this-> createForm(
-            "Appbundle\Form\CreatureFantastiqueType",
+            "AppBundle\Form\CreatureFantastiqueType",
             $creatureFantastique
             );
         $form->handleRequest($request);
@@ -80,7 +80,7 @@ class CreatureFantastiqueController extends Controller
                 'creaturefantastique' => $creatureFantastique,
                 'form' => $form->createView(),
             ]);
-        dump($response);die();
+        //dump($response);die();
         return $response;
     }
 }
